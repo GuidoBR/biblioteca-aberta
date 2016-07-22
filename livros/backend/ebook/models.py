@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 
 class Livro(models.Model):
@@ -6,7 +7,7 @@ class Livro(models.Model):
     name = models.CharField(max_length=256)
     description = models.CharField(max_length=1024)
     isbn = models.CharField(max_length=13)
-    publication_date = models.DateTimeField()
+    publication_date = models.DateTimeField(default=timezone.now)
 
 
 class Autor(models.Model):
