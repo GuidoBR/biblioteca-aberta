@@ -34,7 +34,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='ebook',
             name='language',
-            field=models.ForeignKey(default='Português', on_delete=django.db.models.deletion.CASCADE, to='ebook.Language'),
+            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, to='ebook.Language'),
             preserve_default=False,
         ),
     ]
