@@ -14,11 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from rest_framework.routers import DefaultRouter
-from ebook.views import LivroViewSet, EbookViewSet, AutorViewSet
+from ebook.views import LivroViewSet, EbookViewSet, AutorViewSet, IdiomaViewSet
 
 router = DefaultRouter()
 router.register(prefix='livros', viewset=LivroViewSet)
 router.register(prefix='ebooks', viewset=EbookViewSet)
 router.register(prefix='autores', viewset=AutorViewSet)
+router.register(prefix='idiomas', viewset=IdiomaViewSet)
 
 urlpatterns = router.urls
