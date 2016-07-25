@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ebook.models import Livro, Ebook
+from ebook.models import Livro, Ebook, Autor, Idioma
 
 
 class LivroSerializer(serializers.ModelSerializer):
@@ -15,3 +15,17 @@ class EbookSerializer(serializers.ModelSerializer):
         model = Ebook
         fields = ('book', 'name', 'file_format', 'file_size',
                   'base_url', 'url', 'image_url')
+
+
+class AutorSerializer(serializers.ModelSerializer):
+    """ Serializer to represent the Autor model """
+    class Meta:
+        model = Autor
+        fields = ('name')
+
+
+class IdiomaSerializer(serializers.ModelSerializer):
+    """ Serializer to represent the Idioma model """
+    class Meta:
+        model = Idioma
+        fields = ('name', 'code')
