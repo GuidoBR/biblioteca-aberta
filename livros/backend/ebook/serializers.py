@@ -6,26 +6,25 @@ class LivroSerializer(serializers.ModelSerializer):
     """ Serializer to represent the Livro model """
     class Meta:
         model = Livro
-        fields = ('name', 'isbn', 'description', 'publication_date')
+        fields = '__all__'
 
 
 class EbookSerializer(serializers.ModelSerializer):
     """ Serializer to represent the Ebook model """
     class Meta:
         model = Ebook
-        fields = ('book', 'name', 'file_format', 'file_size',
-                  'base_url', 'url', 'image_url')
+        fields = '__all__'
 
 
 class AutorSerializer(serializers.ModelSerializer):
     """ Serializer to represent the Autor model """
     class Meta:
         model = Autor
-        fields = ('name')
+        fields = '__all__'
 
 
 class IdiomaSerializer(serializers.ModelSerializer):
     """ Serializer to represent the Idioma model """
     class Meta:
         model = Idioma
-        fields = ('name', 'code')
+        fields = '__all__'
