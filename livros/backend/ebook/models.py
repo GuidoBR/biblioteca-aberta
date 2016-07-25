@@ -23,7 +23,7 @@ class Livro(models.Model):
         return self.name
 
 
-class Language(models.Model):
+class Idioma(models.Model):
     """ Idioma """
     name = models.CharField(max_length=256, default="Português")
     language_code = models.CharField(max_length=5, default="pt-BR")
@@ -36,7 +36,7 @@ class Ebook(models.Model):
     """ Classe com as informações do ebook.
     - Cada ebook pertence a um livro """
     book = models.ForeignKey(Livro)
-    language = models.ForeignKey(Language)
+    language = models.ForeignKey(Idioma)
     name = models.CharField(max_length=256)
     file_format = models.CharField(max_length=16)
     file_size = models.IntegerField(default=0)
