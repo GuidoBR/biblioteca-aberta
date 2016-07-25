@@ -17,9 +17,9 @@ from rest_framework.routers import DefaultRouter
 from ebook.views import LivroViewSet, EbookViewSet, AutorViewSet, IdiomaViewSet
 
 router = DefaultRouter()
-router.register(prefix='livros', viewset=LivroViewSet)
-router.register(prefix='ebooks', viewset=EbookViewSet)
-router.register(prefix='autores', viewset=AutorViewSet)
-router.register(prefix='idiomas', viewset=IdiomaViewSet)
+router.register(prefix='api/livros', viewset=LivroViewSet)
+router.register(prefix='api/ebooks', viewset=EbookViewSet)
+router.register(prefix='api/autores', viewset=AutorViewSet)
+router.register(prefix='api/idiomas', viewset=IdiomaViewSet)
 
 urlpatterns = router.urls
