@@ -54,6 +54,7 @@ class Ebook(models.Model):
     base_url = models.URLField(max_length=1024)
     url = models.URLField(max_length=1024)
     image_url = models.URLField(max_length=1024)
+    download = models.IntegerField(default=0)
 
     def __str__(self):
         return self.name
