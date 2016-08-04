@@ -1,42 +1,197 @@
 {% load staticfiles %}
 <!DOCTYPE html>
-<html class="no-js">
-        <head>
-                <meta charset="utf-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <title>LivrosLivres</title>
+<html class="no-js" lang="en">
+		<head>
+				<meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<title>LivrosLivres</title>
 				<!--Import Google Icon Font-->
-                <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-                <!--Import materialize.css-->
-                <link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}"  media="screen,projection"/>
+				<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+				<!--Import materialize.css-->
+				<link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}"  media="screen,projection"/>
+				<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}"  media="screen,projection"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-                <script type="text/html" id="home-template">
-                        <h1>Hello World!</h1>
-                </script>
-        </head>
+				<script type="text/html" id="home-template">
+<!-- Aqui esta a ligacao com o backbone -->
+				</script>
+		</head>
 
-        <body>
-                <div id="content">
-                </div>
+		<body>
+				<nav class="white" role="navigation">
+						<div class="nav-wrapper container">
+								<a id="logo-container" href="#" class="brand-logo">LivrosLivres</a>
+								<ul class="right hide-on-med-and-down">
+										<li><a href="#">Top</a></li>
+										<li><a href="#">Recent</a></li>
+										<li><a href="#">Contato</a></li>
+								</ul>
 
-                <script src="{% static 'js/vendor/jquery-3.1.0.min.js' %}"></script>
-                <script src="{% static 'js/vendor/underscore-min.js' %}"></script>
-                <script src="{% static 'js/vendor/backbone-min.js' %}"></script>
-                <script src="{% static 'js/vendor/materialize.min.js' %}"></script>
+								<ul id="nav-mobile" class="side-nav">
+										<li><a href="#">Top</a></li>
+										<li><a href="#">Recent</a></li>
+										<li><a href="#">Contato</a></li>
+								</ul>
+								<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+						</div>
+				</nav>
+				<div class="row">
 
-                <script id="config" type="text/json">
-                {
-                    "models": {},
-                    "collections": {},
-                    "views": {},
-                    "router": null
-                }
-                </script>
+						<div class="col s12 m12 l12">
+								<div class="row">
+										<div class="col s12 m4 l3">
+												<div class="card hoverable">
+														<div class="card-image">
+																<img src="https://arianeribeiro.files.wordpress.com/2010/11/78496_632.jpg" alt="Capa de HP4">
+																<span class="card-title">Harry Potter e o Cálice de Fogo</span>
+														</div>
+														<div class="card-content">
+																<p>Livro 4 da série Harry Potter</p>
+														</div>
+														<div class="card-action">
+																<a href="#">Baixar</a>
+														</div>
+												</div>
+										</div>
 
-                <script src="{% static 'js/app.js' %}"></script>
-                <script src="{% static 'js/models.js' %}"></script>
-                <script src="{% static 'js/views.js' %}"></script>
-                <script src="{% static 'js/router.js' %}"></script>
-        </body>
+										<div class="col s12 m4 l3">
+												<div class="card hoverable">
+														<div class="card-image">
+																<img src="https://arianeribeiro.files.wordpress.com/2010/11/78496_632.jpg" alt="Capa de HP4">
+																<span class="card-title">Harry Potter e o Cálice de Fogo</span>
+														</div>
+														<div class="card-content">
+																<p>Livro 4 da série Harry Potter</p>
+														</div>
+														<div class="card-action">
+																<a href="#">Baixar</a>
+														</div>
+												</div>
+										</div>
+
+										<div class="col s12 m4 l3">
+												<div class="card hoverable">
+														<div class="card-image">
+																<img src="https://arianeribeiro.files.wordpress.com/2010/11/78496_632.jpg" alt="Capa de HP4">
+																<span class="card-title">Harry Potter e o Cálice de Fogo</span>
+														</div>
+														<div class="card-content">
+																<p>Livro 4 da série Harry Potter</p>
+														</div>
+														<div class="card-action">
+																<a href="#">Baixar</a>
+														</div>
+												</div>
+										</div>
+
+										<div class="col s12 m4 l3">
+												<div class="card hoverable">
+														<div class="card-image">
+																<img src="https://arianeribeiro.files.wordpress.com/2010/11/78496_632.jpg" alt="Capa de HP4">
+																<span class="card-title">Harry Potter e o Cálice de Fogo</span>
+														</div>
+														<div class="card-content">
+																<p>Livro 4 da série Harry Potter</p>
+														</div>
+														<div class="card-action">
+																<a href="#">Baixar</a>
+														</div>
+												</div>
+										</div>
+
+										<div class="col s12 m4 l3">
+												<div class="card hoverable">
+														<div class="card-image">
+																<img src="https://arianeribeiro.files.wordpress.com/2010/11/78496_632.jpg" alt="Capa de HP4">
+																<span class="card-title">Harry Potter e o Cálice de Fogo</span>
+														</div>
+														<div class="card-content">
+																<p>Livro 4 da série Harry Potter</p>
+														</div>
+														<div class="card-action">
+																<a href="#">Baixar</a>
+														</div>
+												</div>
+										</div>
+
+										<div class="col s12 m4 l3">
+												<div class="card hoverable">
+														<div class="card-image">
+																<img src="https://arianeribeiro.files.wordpress.com/2010/11/78496_632.jpg" alt="Capa de HP4">
+																<span class="card-title">Harry Potter e o Cálice de Fogo</span>
+														</div>
+														<div class="card-content">
+																<p>Livro 4 da série Harry Potter</p>
+														</div>
+														<div class="card-action">
+																<a href="#">Baixar</a>
+														</div>
+												</div>
+										</div>
+
+										<div class="col s12 m4 l3">
+												<div class="card hoverable">
+														<div class="card-image">
+																<img src="https://arianeribeiro.files.wordpress.com/2010/11/78496_632.jpg" alt="Capa de HP4">
+																<span class="card-title">Harry Potter e o Cálice de Fogo</span>
+														</div>
+														<div class="card-content">
+																<p>Livro 4 da série Harry Potter</p>
+														</div>
+														<div class="card-action">
+																<a href="#">Baixar</a>
+														</div>
+												</div>
+										</div>
+
+										<div class="col s12 m4 l3">
+												<div class="card hoverable">
+														<div class="card-image">
+																<img src="https://arianeribeiro.files.wordpress.com/2010/11/78496_632.jpg" alt="Capa de HP4">
+																<span class="card-title">Harry Potter e o Cálice de Fogo</span>
+														</div>
+														<div class="card-content">
+																<p>Livro 4 da série Harry Potter</p>
+														</div>
+														<div class="card-action">
+																<a href="#">Baixar</a>
+														</div>
+												</div>
+										</div>
+
+								</div>
+						</div>
+
+						<!-- Anuncios
+						<div class="col s12 m3 l2"> 
+						</div> -->
+
+				</div>
+
+
+				<div id="content">
+						<!-- Backbone stuff -->
+				</div>
+
+				<script src="{% static 'js/vendor/jquery-3.1.0.min.js' %}"></script>
+				<script src="{% static 'js/vendor/underscore-min.js' %}"></script>
+				<script src="{% static 'js/vendor/backbone-min.js' %}"></script>
+				<script src="{% static 'js/vendor/materialize.min.js' %}"></script>
+				<script src="{% static 'js/init.js' %}"></script>
+
+				<script id="config" type="text/json">
+{
+					"models": {},
+					"collections": {},
+					"views": {},
+					"router": null
+				}
+				</script>
+
+				<script src="{% static 'js/app.js' %}"></script>
+				<script src="{% static 'js/models.js' %}"></script>
+				<script src="{% static 'js/views.js' %}"></script>
+				<script src="{% static 'js/router.js' %}"></script>
+		</body>
 </html>
