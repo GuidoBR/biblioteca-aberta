@@ -2,7 +2,7 @@
     var HomepageView = Backbone.View.extend({
         templateName: '#home-template',
         initialize: function() {
-            this.template = _.template($(this.template).html());
+            this.template = _.template($(this.templateName).html());
         },
         render: function() {
             var context = this.getContext(),
