@@ -1,5 +1,8 @@
 from rest_framework.routers import DefaultRouter
-from ebook.views import LivroViewSet, EbookViewSet, AutorViewSet, IdiomaViewSet
+from livros.ebook.views import (LivroViewSet,
+                                EbookViewSet,
+                                AutorViewSet,
+                                IdiomaViewSet)
 
 from django.views.generic import TemplateView
 from django.conf.urls import url, include

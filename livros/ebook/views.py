@@ -1,9 +1,9 @@
-from rest_framework import authentication, permissions, viewsets
-from ebook.models import Livro, Ebook, Autor, Idioma
-from ebook.serializers import (LivroSerializer,
-                               EbookSerializer,
-                               AutorSerializer,
-                               IdiomaSerializer)
+from rest_framework import authentication, viewsets
+from livros.ebook.models import Livro, Ebook, Autor, Idioma
+from livros.ebook.serializers import (LivroSerializer,
+                                      EbookSerializer,
+                                      AutorSerializer,
+                                      IdiomaSerializer)
 
 
 class DefaultsMixin(object):

@@ -14,7 +14,8 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FRONTEND_DIR = os.path.join(BASE_DIR, 'frontend')
+LIVROS_DIR = os.path.join(BASE_DIR, 'livros')
+FRONTEND_DIR = os.path.join(LIVROS_DIR, 'frontend')
 BACKEND_DIR = os.path.join(BASE_DIR, 'backend')
 
 
@@ -40,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'ebook'
+    'livros.ebook'
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -54,7 +55,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'livros.urls'
 
 TEMPLATES = [
     {
@@ -122,8 +123,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
+STATIC_ROOT = FRONTEND_DIR
+
 STATICFILES_DIRS = [
     os.path.join(FRONTEND_DIR, 'static/')
 ]
 
 STATIC_URL = '/static/'
+
+# Simplified static file serving.ALLOWED_HOSTS#
+# https://warehouse.python.org/project/whitenoise/
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'

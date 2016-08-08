@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from rest_framework.reverse import reverse
-from ebook.models import Livro, Ebook, Autor, Idioma
+from livros.ebook.models import Livro, Ebook, Autor, Idioma
 
 
 class LivroSerializer(serializers.ModelSerializer):
