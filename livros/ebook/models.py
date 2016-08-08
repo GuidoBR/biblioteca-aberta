@@ -1,9 +1,10 @@
+# -*- coding: UTF-8 -*-
 from django.db import models
 from django.utils import timezone
 
 
 class Autor(models.Model):
-    """ Classe com as informações do Autor.
+    """ Classe com as informacoes do Autor.
     - Um autor pode ser autor de n livros. Um livro pode ter n autores."""
     name = models.CharField(max_length=256, default="Autor Desconhecido")
 
