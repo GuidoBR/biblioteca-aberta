@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 from rest_framework import serializers
 from rest_framework.reverse import reverse
 from livros.ebook.models import Livro, Ebook, Autor, Idioma

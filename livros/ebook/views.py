@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 from rest_framework import authentication, viewsets
 from livros.ebook.models import Livro, Ebook, Autor, Idioma
 from livros.ebook.serializers import (LivroSerializer,
