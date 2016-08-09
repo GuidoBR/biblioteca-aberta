@@ -13,7 +13,7 @@ var data = [
     {id: 12, title: "Metamorphosis by Franz Kafka", img: "https://upload.wikimedia.org/wikipedia/commons/7/71/Metamorphosis.jpg", download: "https://www.gutenberg.org/ebooks/5200"},
     {id: 13, title: "The Adventures of Tom Sawyer by Mark Twain", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tom_Sawyer_1876_frontispiece.jpg/220px-Tom_Sawyer_1876_frontispiece.jpg", download: "https://www.gutenberg.org/ebooks/74"},
     {id: 14, title: "Emma by Jane Austen", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/EmmaTitlePage.jpg/220px-EmmaTitlePage.jpg", download: "https://www.gutenberg.org/ebooks/158"},
-    {id: 15, title: "Sense and Sensibility by Jane Austen", img: "https://en.wikipedia.org/wiki/Sense_and_Sensibility#/media/File:SenseAndSensibilityTitlePage.jpg", download: "https://www.gutenberg.org/ebooks/161"},
+    {id: 15, title: "Sense and Sensibility by Jane Austen", img: "https://upload.wikimedia.org/wikipedia/commons/9/96/SenseAndSensibilityTitlePage.jpg", download: "https://www.gutenberg.org/ebooks/161"},
     {id: 16, title: "Great Expectations by Charles Dickens", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Greatexpectations_vol1.jpg/367px-Greatexpectations_vol1.jpg", download: "https://www.gutenberg.org/ebooks/1400"},
     {id: 17, title: "The Complete Works of William Shakespeare by William Shakespeare", img: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Shakespeare.jpg", download: "https://www.gutenberg.org/ebooks/100"},
     {id: 18, title: "Les Misérables by Victor Hugo", img: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Jean_Valjean.JPG", download: "https://www.gutenberg.org/ebooks/135"},
