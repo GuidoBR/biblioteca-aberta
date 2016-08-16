@@ -55,7 +55,7 @@ var EbookAction = React.createClass({
 var EbookCard = React.createClass({
         render: function() {
                 return ( 
-                        <div className="col s12 m4 l3">
+                        <div className="col s12 m6 l4">
                                                 <div key={this.props.book.id} className="card hoverable">
                                                         <EbookImage title={this.props.book.title} img={this.props.book.img} />
                                                         <EbookContent />
