@@ -21,6 +21,16 @@ var data = [
     {id: 18, title: "Les Misérables by Victor Hugo", img: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Jean_Valjean.JPG", download: "https://www.gutenberg.org/ebooks/135"},
     {id: 19, title: "Peter Pan by J.M. Barrie", img: "https://upload.wikimedia.org/wikipedia/commons/2/21/Peter_pan_1911_pipes.jpg", download: "https://www.gutenberg.org/ebooks/16"},
     {id: 20, title: "Treasure Island by Robert Louis Stevenson", img: "https://www.gutenberg.org/cache/epub/120/pg120.cover.medium.jpg", download: "https://www.gutenberg.org/ebooks/120"},
+    {id: 21, title: "Ressureição - Machado de Assis (1872)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm01.pdf"},
+    {id: 22, title: "A Mão e a Luva - Machado de Assis (1874)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm02.pdf"},
+    {id: 23, title: "Helena - Machado de Assis (1876)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm03.pdf"},
+    {id: 24, title: "Iaiá Garcia - Machado de Assis (1878)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm04.pdf"},
+    {id: 25, title: "Memórias Póstumas de Brás Cubas - Machado de Assis (1881)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm05.pdf"},
+    {id: 26, title: "Casa Velha - Machado de Assis (1885)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm06.pdf"},
+    {id: 27, title: "Quincas Borba - Machado de Assis (1891)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm07.pdf"},
+    {id: 28, title: "Dom Casmurro - Machado de Assis (1899)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm08.pdf"},
+    {id: 29, title: "Esaú e Jacó - Machado de Assis (1904)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm09.pdf"},
+    {id: 30, title: "Memorial de Aires - Machado de Assis (1908)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm10.pdf"},
 ]
 
 var EbookImage = React.createClass({
