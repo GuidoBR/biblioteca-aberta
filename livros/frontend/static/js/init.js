@@ -31,6 +31,16 @@ var data = [
     {id: 28, title: "Dom Casmurro - Machado de Assis (1899)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm08.pdf"},
     {id: 29, title: "Esaú e Jacó - Machado de Assis (1904)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm09.pdf"},
     {id: 30, title: "Memorial de Aires - Machado de Assis (1908)", img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm10.pdf"},
+    {id: 31, title: "Historia da Grecia - Fernandes Costa", img: "https://images-na.ssl-images-amazon.com/images/I/51EIHYzw8nL._SX260_.jpg", download: "https://www.gutenberg.org/ebooks/32174"},
+    {id: 32, title: "Tratado das Cores - Diogo de Carvalho e Sampaio", img: "https://images-na.ssl-images-amazon.com/images/I/51OSQyhPniL._SY346_.jpg", download: "https://www.gutenberg.org/ebooks/31190"},
+    {id: 33, title: "História Geral da África - Volume I: Metodologia e Pré-História da África", img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190249POR.pdf"},
+    {id: 34, title: "História Geral da África - Volume II: África Antiga", img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190250POR.pdf"},
+    {id: 35, title: "História Geral da África - Volume III: África do século VII ao XI", img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190251POR.pdf"},
+    {id: 36, title: "História Geral da África - Volume IV: África do século XII ao XVI", img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190252POR.pdf"},
+    {id: 37, title: "História Geral da África - Volume V: África do século XVI ao XVIII", img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190253POR.pdf"},
+    {id: 38, title: "História Geral da África - Volume VI: África do século XIX à decada de 1880", img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190254POR.pdf"},
+    {id: 39, title: "História Geral da África - Volume VII: África sob dominação colonial, 1880-1935", img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190255POR.pdf"},
+    {id: 40, title: "História Geral da África - Volume VIII: África desde 1935", img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190256POR.pdf"},
 ]
 
 var EbookImage = React.createClass({
