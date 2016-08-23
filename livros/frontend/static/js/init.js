@@ -1,5 +1,3 @@
-document.getElementById('loading').style.display = 'block';
-
 var data = [
     {id: 1, title: "A Tale of Two Cities by Charles Dickens", img: "https://upload.wikimedia.org/wikipedia/commons/f/f1/A_Tale_of_Two_Cities_title_page.png", download: "https://www.gutenberg.org/ebooks/98"},
     {id: 2, title: "The Picture of Dorian Gray by Oscar Wilde", img: "https://t0.gstatic.com/images?q=tbn:ANd9GcQXN9QfDH6p3b9A1cMseCZvJYBGAMXxxEX4sg6GbZ6DNtm79Tuc", download: "https://www.gutenberg.org/ebooks/174"},
@@ -104,5 +102,3 @@ ReactDOM.render(
         <EbooksRow />,
         document.getElementById('content')
 );
-
-document.getElementById('loading').style.display = 'none';
