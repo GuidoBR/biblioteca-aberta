@@ -98,6 +98,16 @@ var EbooksRow = React.createClass({
         }
 });
 
+var SearchBox = React.createClass({
+        doSearch: function() {
+            var query = this.refs.searchInput.getDOMNode().value;
+            this.props.doSearch(query);
+        },
+        render: function() {
+                return <input type="text" ref="searchInput" placeholder="Search books..." value={this.props.query} onChange={this.doSearch} />
+        }
+});
+
 ReactDOM.render(
         <EbooksRow />,
         document.getElementById('content')
