@@ -1,18 +1,95 @@
 var data = [
-    {id: 1, title: "A Tale of Two Cities by Charles Dickens", img: "https://upload.wikimedia.org/wikipedia/commons/f/f1/A_Tale_of_Two_Cities_title_page.png", download: "https://www.gutenberg.org/ebooks/98"},
-    {id: 2, title: "The Picture of Dorian Gray by Oscar Wilde", img: "https://t0.gstatic.com/images?q=tbn:ANd9GcQXN9QfDH6p3b9A1cMseCZvJYBGAMXxxEX4sg6GbZ6DNtm79Tuc", download: "https://www.gutenberg.org/ebooks/174"},
-    {id: 3, title: "War and Peance by Leo Tolstoy", img: "http://livingout.social/wp-content/uploads/2016/07/51aIASVTHFL._SX307_BO1204203200_.jpg", download: "https://www.gutenberg.org/ebooks/2600"},
-    {id: 4, title: "Moby Dick; Or, The Whale by Herman Melville", img: "http://www.mobydickcontent.com/wp-content/uploads/2015/03/moby_dick_book_cover_by_mario0357-d6rt002.jpg", download: "https://www.gutenberg.org/ebooks/2701"},
-    {id: 5, title: "The Kama Sutra of Vatsyayana by Vatsyayana", img: "http://www.3livrossobre.com.br/wp-content/uploads/2012/12/84169_390.jpeg", download: "https://www.gutenberg.org/ebooks/27827"},
-    {id: 6, title: "The Romance of Lust: A Classic Victorian erotic novel by Anonymous", img: "http://pictures.abebooks.com/isbn/9781484155974-uk.jpg", download: "https://www.gutenberg.org/ebooks/30254"},
-    {id: 7, title: "The Adventures of Sherlock Holmes by Arthur Conan Doyle", img: "https://images.contentreserve.com/ImageType-100/1785-1/%7B24168643-5E3F-497D-A948-8BEC7B3D80CC%7DImg100.jpg", download: "https://www.gutenberg.org/ebooks/1661"},
-    {id: 8, title: "Alice's Adventures in Wonderland by Lewis Carroll", img: "http://vignette1.wikia.nocookie.net/lostpedia/images/a/a8/Alice.jpg/revision/latest?cb=20070107151301", download: "https://www.gutenberg.org/ebooks/11"},
-    {id: 9, title: "Pride and Prejudice by Jane Austen", img: "http://www.publicbookshelf.com/images/PridePrejudice423x630.jpg", download: "https://www.gutenberg.org/ebooks/1342"},
-    {id: 10, title: "Dracula by Bram Stoker", img: "https://www.gutenberg.org/cache/epub/345/pg345.cover.medium.jpg", download: "https://www.gutenberg.org/ebooks/345"},
-    {id: 11, title: "Frankenstein; Or, The Modern Prometheus by Mary Wollstonecraft Shelley", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Frankenstein_1818_edition_title_page.jpg/250px-Frankenstein_1818_edition_title_page.jpg", download: "https://www.gutenberg.org/ebooks/84"},
-    {id: 12, title: "Metamorphosis by Franz Kafka", img: "https://upload.wikimedia.org/wikipedia/commons/7/71/Metamorphosis.jpg", download: "https://www.gutenberg.org/ebooks/5200"},
-    {id: 13, title: "The Adventures of Tom Sawyer by Mark Twain", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tom_Sawyer_1876_frontispiece.jpg/220px-Tom_Sawyer_1876_frontispiece.jpg", download: "https://www.gutenberg.org/ebooks/74"},
-    {id: 14, title: "Emma by Jane Austen", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/EmmaTitlePage.jpg/220px-EmmaTitlePage.jpg", download: "https://www.gutenberg.org/ebooks/158"},
+    {
+            id: 1,
+            title: "A Tale of Two Cities",
+            author: "Charles Dickens",
+            img: "https://upload.wikimedia.org/wikipedia/commons/f/f1/A_Tale_of_Two_Cities_title_page.png",
+            download: "https://www.gutenberg.org/ebooks/98",
+            tags: ["Charles Dickens", "USA", "English Literature"]
+    },
+    {
+            id: 2,
+            title: "The Picture of Dorian Gray",
+            author: "Oscar Wilde",
+            img: "https://t0.gstatic.com/images?q=tbn:ANd9GcQXN9QfDH6p3b9A1cMseCZvJYBGAMXxxEX4sg6GbZ6DNtm79Tuc",
+            download: "https://www.gutenberg.org/ebooks/174",
+            tags: ["Oscar Wilde", "English Literature"]
+    },
+    {
+            id: 3,
+            title: "War and Peance",
+            author: "Leo Tolstoy",
+            img: "http://livingout.social/wp-content/uploads/2016/07/51aIASVTHFL._SX307_BO1204203200_.jpg", 
+            download: "https://www.gutenberg.org/ebooks/2600",
+            tags: ["Napoleon", "Russian Literature"]
+    },
+    {
+            id: 4,
+            title: "Moby Dick; Or, The Whale",
+            author: "Herman Melville",
+            img: "http://www.mobydickcontent.com/wp-content/uploads/2015/03/moby_dick_book_cover_by_mario0357-d6rt002.jpg",
+            download: "https://www.gutenberg.org/ebooks/2701"
+    },
+    {
+            id: 5,
+            title: "The Kama Sutra of Vatsyayana",
+            author: "Vatsyayana",
+            img: "http://www.3livrossobre.com.br/wp-content/uploads/2012/12/84169_390.jpeg",
+            download: "https://www.gutenberg.org/ebooks/27827"
+    },
+    {
+            id: 6,
+            title: "The Romance of Lust: A Classic Victorian erotic novel",
+            author: "Anonymous",
+            img: "http://pictures.abebooks.com/isbn/9781484155974-uk.jpg",
+            download: "https://www.gutenberg.org/ebooks/30254"
+    },
+    {
+            id: 7,
+            title: "The Adventures of Sherlock Holmes",
+            author: "Arthur Conan Doyle",
+            img: "https://images.contentreserve.com/ImageType-100/1785-1/%7B24168643-5E3F-497D-A948-8BEC7B3D80CC%7DImg100.jpg",
+            download: "https://www.gutenberg.org/ebooks/1661"
+    },
+    {
+            id: 8,
+            title: "Alice's Adventures in Wonderland",
+            author: "Lewis Carroll",
+            img: "http://vignette1.wikia.nocookie.net/lostpedia/images/a/a8/Alice.jpg/revision/latest?cb=20070107151301",
+            download: "https://www.gutenberg.org/ebooks/11"
+    },
+    {
+            id: 9,
+            title: "Pride and Prejudice",
+            author: "Jane Austen",
+            img: "http://www.publicbookshelf.com/images/PridePrejudice423x630.jpg",
+            download: "https://www.gutenberg.org/ebooks/1342"
+    },
+    {
+            id: 10,
+            title: "Dracula",
+            author: "Bram Stoker",
+            img: "https://www.gutenberg.org/cache/epub/345/pg345.cover.medium.jpg",
+            download: "https://www.gutenberg.org/ebooks/345"
+    },
+    {
+            id: 11,
+            title: "Frankenstein; Or, The Modern Prometheus",
+            author: "Mary Wollstonecraft Shelley",
+            img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Frankenstein_1818_edition_title_page.jpg/250px-Frankenstein_1818_edition_title_page.jpg", 
+            download: "https://www.gutenberg.org/ebooks/84"
+    },
+    {
+            id: 12,
+            title: "Metamorphosis",
+            author: "Franz Kafka",
+            img: "https://upload.wikimedia.org/wikipedia/commons/7/71/Metamorphosis.jpg",
+            download: "https://www.gutenberg.org/ebooks/5200"
+    },
+    {
+            id: 13, title: "The Adventures of Tom Sawyer by Mark Twain", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tom_Sawyer_1876_frontispiece.jpg/220px-Tom_Sawyer_1876_frontispiece.jpg", download: "https://www.gutenberg.org/ebooks/74"},
+    {
+            id: 14, title: "Emma by Jane Austen", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/EmmaTitlePage.jpg/220px-EmmaTitlePage.jpg", download: "https://www.gutenberg.org/ebooks/158"},
     {id: 15, title: "Sense and Sensibility by Jane Austen", img: "https://upload.wikimedia.org/wikipedia/commons/9/96/SenseAndSensibilityTitlePage.jpg", download: "https://www.gutenberg.org/ebooks/161"},
     {id: 16, title: "Great Expectations by Charles Dickens", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Greatexpectations_vol1.jpg/367px-Greatexpectations_vol1.jpg", download: "https://www.gutenberg.org/ebooks/1400"},
     {id: 17, title: "The Complete Works of William Shakespeare by William Shakespeare", img: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Shakespeare.jpg", download: "https://www.gutenberg.org/ebooks/100"},
@@ -39,14 +116,15 @@ var data = [
     {id: 38, title: "História Geral da África - Volume VI: África do século XIX à decada de 1880", img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190254POR.pdf"},
     {id: 39, title: "História Geral da África - Volume VII: África sob dominação colonial, 1880-1935", img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190255POR.pdf"},
     {id: 40, title: "História Geral da África - Volume VIII: África desde 1935", img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190256POR.pdf"},
+
 ]
 
 var EbookImage = React.createClass({
         render: function() {
                 return (
                                 <div className="card-image">
-                                        <img width="448px" height="597px" src={ this.props.img } alt={ this.props.title } />
-                                        <span className="card-title">{ this.props.title }</span>
+                                        <img width="448px" height="597px" src={ this.props.book.img } alt={ this.props.book.title } />
+                                        <span className="card-title">{ this.props.book.title } by { this.props.book.author }</span>
                                 </div>
 
             );
@@ -56,7 +134,9 @@ var EbookContent = React.createClass({
         render: function() {
                 return (
                         <div className="card-content">
-                                <p></p>
+                                <p>
+                                    <strong>Tags:</strong>
+                                </p>
                         </div>
             );
         }
@@ -75,7 +155,7 @@ var EbookCard = React.createClass({
                 return ( 
                         <div className="col s12 m6 l4">
                                                 <div key={this.props.book.id} className="card hoverable">
-                                                        <EbookImage title={this.props.book.title} img={this.props.book.img} />
+                                                        <EbookImage book={this.props.book} />
                                                         <EbookContent />
                                                         <EbookAction download={this.props.book.download} />
                                                 </div>
