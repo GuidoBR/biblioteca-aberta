@@ -1,258 +1,257 @@
-{
-        [
-                {
-                        id: 1,
-                        title: "A Tale of Two Cities",
-                        author: "Charles Dickens",
-                        img: "https://upload.wikimedia.org/wikipedia/commons/f/f1/A_Tale_of_Two_Cities_title_page.png",
-                        download: "https://www.gutenberg.org/ebooks/98",
-                        tags: ["Charles Dickens", "USA", "English Literature"]
-                },
-                {
-                        id: 2,
-                        title: "The Picture of Dorian Gray",
-                        author: "Oscar Wilde",
-                        img: "https://t0.gstatic.com/images?q=tbn:ANd9GcQXN9QfDH6p3b9A1cMseCZvJYBGAMXxxEX4sg6GbZ6DNtm79Tuc",
-                        download: "https://www.gutenberg.org/ebooks/174",
-                        tags: ["Oscar Wilde", "English Literature"]
-                },
-                {
-                        id: 3,
-                        title: "War and Peance",
-                        author: "Leo Tolstoy",
-                        img: "http://livingout.social/wp-content/uploads/2016/07/51aIASVTHFL._SX307_BO1204203200_.jpg", 
-                        download: "https://www.gutenberg.org/ebooks/2600",
-                        tags: ["Napoleon", "Russian Literature"]
-                },
-                {
-                        id: 4,
-                        title: "Moby Dick; Or, The Whale",
-                        author: "Herman Melville",
-                        img: "http://www.mobydickcontent.com/wp-content/uploads/2015/03/moby_dick_book_cover_by_mario0357-d6rt002.jpg",
-                        download: "https://www.gutenberg.org/ebooks/2701"
-                },
-                {
-                        id: 5,
-                        title: "The Kama Sutra of Vatsyayana",
-                        author: "Vatsyayana",
-                        img: "http://www.3livrossobre.com.br/wp-content/uploads/2012/12/84169_390.jpeg",
-                        download: "https://www.gutenberg.org/ebooks/27827"
-                },
-                {
-                        id: 6,
-                        title: "The Romance of Lust: A Classic Victorian erotic novel",
-                        author: "Anonymous",
-                        img: "http://pictures.abebooks.com/isbn/9781484155974-uk.jpg",
-                        download: "https://www.gutenberg.org/ebooks/30254"
-                },
-                {
-                        id: 7,
-                        title: "The Adventures of Sherlock Holmes",
-                        author: "Arthur Conan Doyle",
-                        img: "https://images.contentreserve.com/ImageType-100/1785-1/%7B24168643-5E3F-497D-A948-8BEC7B3D80CC%7DImg100.jpg",
-                        download: "https://www.gutenberg.org/ebooks/1661"
-                },
-                {
-                        id: 8,
-                        title: "Alice's Adventures in Wonderland",
-                        author: "Lewis Carroll",
-                        img: "http://vignette1.wikia.nocookie.net/lostpedia/images/a/a8/Alice.jpg/revision/latest?cb=20070107151301",
-                        download: "https://www.gutenberg.org/ebooks/11"
-                },
-                {
-                        id: 9,
-                        title: "Pride and Prejudice",
-                        author: "Jane Austen",
-                        img: "http://www.publicbookshelf.com/images/PridePrejudice423x630.jpg",
-                        download: "https://www.gutenberg.org/ebooks/1342"
-                },
-                {
-                        id: 10,
-                        title: "Dracula",
-                        author: "Bram Stoker",
-                        img: "https://www.gutenberg.org/cache/epub/345/pg345.cover.medium.jpg",
-                        download: "https://www.gutenberg.org/ebooks/345"
-                },
-                {
-                        id: 11,
-                        title: "Frankenstein; Or, The Modern Prometheus",
-                        author: "Mary Wollstonecraft Shelley",
-                        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Frankenstein_1818_edition_title_page.jpg/250px-Frankenstein_1818_edition_title_page.jpg", 
-                        download: "https://www.gutenberg.org/ebooks/84"
-                },
-                {
-                        id: 12,
-                        title: "Metamorphosis",
-                        author: "Franz Kafka",
-                        img: "https://upload.wikimedia.org/wikipedia/commons/7/71/Metamorphosis.jpg",
-                        download: "https://www.gutenberg.org/ebooks/5200"
-                },
-                {
-                        id: 13,
-                        title: "The Adventures of Tom Sawyer by Mark Twain",
-                        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tom_Sawyer_1876_frontispiece.jpg/220px-Tom_Sawyer_1876_frontispiece.jpg",
-                        download: "https://www.gutenberg.org/ebooks/74"
-                },
-                {
-                        id: 14,
-                        title: "Emma by Jane Austen",
-                        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/EmmaTitlePage.jpg/220px-EmmaTitlePage.jpg",
-                        download: "https://www.gutenberg.org/ebooks/158"
-                },
-                {
-                        id: 15,
-                        title: "Sense and Sensibility by Jane Austen",
-                        img: "https://upload.wikimedia.org/wikipedia/commons/9/96/SenseAndSensibilityTitlePage.jpg",
-                        download: "https://www.gutenberg.org/ebooks/161"
-                },
-                {
-                        id: 16,
-                        title: "Great Expectations by Charles Dickens",
-                        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Greatexpectations_vol1.jpg/367px-Greatexpectations_vol1.jpg",
-                        download: "https://www.gutenberg.org/ebooks/1400"
-                },
-                {
-                        id: 17,
-                        title: "The Complete Works of William Shakespeare by William Shakespeare",
-                        img: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Shakespeare.jpg",
-                        download: "https://www.gutenberg.org/ebooks/100"
-                },
-                {
-                        id: 18,
-                        title: "Les Misérables by Victor Hugo",
-                        img: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Jean_Valjean.JPG",
-                        download: "https://www.gutenberg.org/ebooks/135"
-                },
-                {
-                        id: 19,
-                        title: "Peter Pan by J.M. Barrie",
-                        img: "https://upload.wikimedia.org/wikipedia/commons/2/21/Peter_pan_1911_pipes.jpg",
-                        download: "https://www.gutenberg.org/ebooks/16"
-                },
-                {
-                        id: 20,
-                        title: "Treasure Island by Robert Louis Stevenson",
-                        img: "https://www.gutenberg.org/cache/epub/120/pg120.cover.medium.jpg",
-                        download: "https://www.gutenberg.org/ebooks/120"
-                },
-                {
-                        id: 21,
-                        title: "Ressureição - Machado de Assis (1872)",
-                        img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
-                        download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm01.pdf"
-                },
-                {
-                        id: 22,
-                        title: "A Mão e a Luva - Machado de Assis (1874)", 
-                        img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", 
-                        download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm02.pdf"
-                },
-                {
-                        id: 23,
-                        title: "Helena - Machado de Assis (1876)",
-                        img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", 
-                        download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm03.pdf"
-                },
-                {
-                        id: 24,
-                        title: "Iaiá Garcia - Machado de Assis (1878)",
-                        img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", 
-                        download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm04.pdf"},
-                {
-                        id: 25,
-                        title: "Memórias Póstumas de Brás Cubas - Machado de Assis (1881)",
-                        img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", 
-                        download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm05.pdf"
-                },
-                {
-                        id: 26,
-                        title: "Casa Velha - Machado de Assis (1885)",
-                        img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
-                        download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm06.pdf"
-                },
-                {
-                        id: 27,
-                        title: "Quincas Borba - Machado de Assis (1891)",
-                        img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
-                        download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm07.pdf"
-                },
-                {
-                        id: 28,
-                        title: "Dom Casmurro - Machado de Assis (1899)",
-                        img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
-                        download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm08.pdf"
-                },
-                {
-                        id: 29,
-                        title: "Esaú e Jacó - Machado de Assis (1904)",
-                        img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
-                        download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm09.pdf"
-                },
-                {
-                        id: 30,
-                        title: "Memorial de Aires - Machado de Assis (1908)",
-                        img: "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
-                        download: "http://machado.mec.gov.br/images/stories/pdf/romance/marm10.pdf"
-                },
-                {
-                        id: 31,
-                        title: "Historia da Grecia - Fernandes Costa",
-                        img: "https://images-na.ssl-images-amazon.com/images/I/51EIHYzw8nL._SX260_.jpg",
-                        download: "https://www.gutenberg.org/ebooks/32174"
-                },
-                {
-                        id: 32,
-                        title: "Tratado das Cores - Diogo de Carvalho e Sampaio",
-                        img: "https://images-na.ssl-images-amazon.com/images/I/51OSQyhPniL._SY346_.jpg",
-                        download: "https://www.gutenberg.org/ebooks/31190"
-                },
-                {
-                        id: 33,
-                        title: "História Geral da África - Volume I: Metodologia e Pré-História da África",
-                        img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
-                        download: "http://unesdoc.unesco.org/images/0019/001902/190249POR.pdf"
-                },
-                {
-                        id: 34,
-                        title: "História Geral da África - Volume II: África Antiga",
-                        img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
-                        download: "http://unesdoc.unesco.org/images/0019/001902/190250POR.pdf"
-                },
-                {
-                        id: 35,
-                        title: "História Geral da África - Volume III: África do século VII ao XI",
-                        img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
-                        download: "http://unesdoc.unesco.org/images/0019/001902/190251POR.pdf"
-                },
-                {
-                        id: 36,
-                        title: "História Geral da África - Volume IV: África do século XII ao XVI",
-                        img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
-                        download: "http://unesdoc.unesco.org/images/0019/001902/190252POR.pdf"
-                },
-                {
-                        id: 37,
-                        title: "História Geral da África - Volume V: África do século XVI ao XVIII",
-                        img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
-                        download: "http://unesdoc.unesco.org/images/0019/001902/190253POR.pdf"
-                },
-                {
-                        id: 38,
-                        title: "História Geral da África - Volume VI: África do século XIX à decada de 1880",
-                        img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
-                        download: "http://unesdoc.unesco.org/images/0019/001902/190254POR.pdf"
-                },
-                {
-                        id: 39,
-                        title: "História Geral da África - Volume VII: África sob dominação colonial,
-                        1880-1935",
-                        img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg", download: "http://unesdoc.unesco.org/images/0019/001902/190255POR.pdf"
-                },
-                {
-                        id: 40,
-                        title: "História Geral da África - Volume VIII: África desde 1935",
-                        img: "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
-                        download: "http://unesdoc.unesco.org/images/0019/001902/190256POR.pdf"
-                }
-        ]
-}
+[
+        {
+                "id": 1,
+                "title": "A Tale of Two Cities",
+                "author": "Charles Dickens",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/f/f1/A_Tale_of_Two_Cities_title_page.png",
+                "download": "https://www.gutenberg.org/ebooks/98",
+                "tags": ["Charles Dickens", "USA", "English Literature"]
+        },
+        {
+                "id": 2,
+                "title": "The Picture of Dorian Gray",
+                "author": "Oscar Wilde",
+                "img": "https://t0.gstatic.com/images?q=tbn:ANd9GcQXN9QfDH6p3b9A1cMseCZvJYBGAMXxxEX4sg6GbZ6DNtm79Tuc",
+                "download": "https://www.gutenberg.org/ebooks/174",
+                "tags": ["Oscar Wilde", "English Literature"]
+        },
+        {
+                "id": 3,
+                "title": "War and Peance",
+                "author": "Leo Tolstoy",
+                "img": "http://livingout.social/wp-content/uploads/2016/07/51aIASVTHFL._SX307_BO1204203200_.jpg", 
+                "download": "https://www.gutenberg.org/ebooks/2600",
+                "tags": ["Napoleon", "Russian Literature"]
+        },
+        {
+                "id": 4,
+                "title": "Moby Dick; Or, The Whale",
+                "author": "Herman Melville",
+                "img": "http://www.mobydickcontent.com/wp-content/uploads/2015/03/moby_dick_book_cover_by_mario0357-d6rt002.jpg",
+                "download": "https://www.gutenberg.org/ebooks/2701"
+        },
+        {
+                "id": 5,
+                "title": "The Kama Sutra of Vatsyayana",
+                "author": "Vatsyayana",
+                "img": "http://www.3livrossobre.com.br/wp-content/uploads/2012/12/84169_390.jpeg",
+                "download": "https://www.gutenberg.org/ebooks/27827"
+        },
+        {
+                "id": 6,
+                "title": "The Romance of Lust: A Classic Victorian erotic novel",
+                "author": "Anonymous",
+                "img": "http://pictures.abebooks.com/isbn/9781484155974-uk.jpg",
+                "download": "https://www.gutenberg.org/ebooks/30254"
+        },
+        {
+                "id": 7,
+                "title": "The Adventures of Sherlock Holmes",
+                "author": "Arthur Conan Doyle",
+                "img": "https://images.contentreserve.com/ImageType-100/1785-1/%7B24168643-5E3F-497D-A948-8BEC7B3D80CC%7DImg100.jpg",
+                "download": "https://www.gutenberg.org/ebooks/1661"
+        },
+        {
+                "id": 8,
+                "title": "Alice's Adventures in Wonderland",
+                "author": "Lewis Carroll",
+                "img": "http://vignette1.wikia.nocookie.net/lostpedia/images/a/a8/Alice.jpg/revision/latest?cb=20070107151301",
+                "download": "https://www.gutenberg.org/ebooks/11"
+        },
+        {
+                "id": 9,
+                "title": "Pride and Prejudice",
+                "author": "Jane Austen",
+                "img": "http://www.publicbookshelf.com/images/PridePrejudice423x630.jpg",
+                "download": "https://www.gutenberg.org/ebooks/1342"
+        },
+        {
+                "id": 10,
+                "title": "Dracula",
+                "author": "Bram Stoker",
+                "img": "https://www.gutenberg.org/cache/epub/345/pg345.cover.medium.jpg",
+                "download": "https://www.gutenberg.org/ebooks/345"
+        },
+        {
+                "id": 11,
+                "title": "Frankenstein; Or, The Modern Prometheus",
+                "author": "Mary Wollstonecraft Shelley",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Frankenstein_1818_edition_title_page.jpg/250px-Frankenstein_1818_edition_title_page.jpg", 
+                "download": "https://www.gutenberg.org/ebooks/84"
+        },
+        {
+                "id": 12,
+                "title": "Metamorphosis",
+                "author": "Franz Kafka",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/7/71/Metamorphosis.jpg",
+                "download": "https://www.gutenberg.org/ebooks/5200"
+        },
+        {
+                "id": 13,
+                "title": "The Adventures of Tom Sawyer by Mark Twain",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tom_Sawyer_1876_frontispiece.jpg/220px-Tom_Sawyer_1876_frontispiece.jpg",
+                "download": "https://www.gutenberg.org/ebooks/74"
+        },
+        {
+                "id": 14,
+                "title": "Emma by Jane Austen",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/EmmaTitlePage.jpg/220px-EmmaTitlePage.jpg",
+                "download": "https://www.gutenberg.org/ebooks/158"
+        },
+        {
+                "id": 15,
+                "title": "Sense and Sensibility by Jane Austen",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/9/96/SenseAndSensibilityTitlePage.jpg",
+                "download": "https://www.gutenberg.org/ebooks/161"
+        },
+        {
+                "id": 16,
+                "title": "Great Expectations by Charles Dickens",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Greatexpectations_vol1.jpg/367px-Greatexpectations_vol1.jpg",
+                "download": "https://www.gutenberg.org/ebooks/1400"
+        },
+        {
+                "id": 17,
+                "title": "The Complete Works of William Shakespeare by William Shakespeare",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Shakespeare.jpg",
+                "download": "https://www.gutenberg.org/ebooks/100"
+        },
+        {
+                "id": 18,
+                "title": "Les Misérables by Victor Hugo",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Jean_Valjean.JPG",
+                "download": "https://www.gutenberg.org/ebooks/135"
+        },
+        {
+                "id": 19,
+                "title": "Peter Pan by J.M. Barrie",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/2/21/Peter_pan_1911_pipes.jpg",
+                "download": "https://www.gutenberg.org/ebooks/16"
+        },
+        {
+                "id": 20,
+                "title": "Treasure Island by Robert Louis Stevenson",
+                "img": "https://www.gutenberg.org/cache/epub/120/pg120.cover.medium.jpg",
+                "download": "https://www.gutenberg.org/ebooks/120"
+        },
+        {
+                "id": 21,
+                "title": "Ressureição - Machado de Assis (1872)",
+                "img": "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
+                "download": "http://machado.mec.gov.br/images/stories/pdf/romance/marm01.pdf"
+        },
+        {
+                "id": 22,
+                "title": "A Mão e a Luva - Machado de Assis (1874)", 
+                "img": "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", 
+                "download": "http://machado.mec.gov.br/images/stories/pdf/romance/marm02.pdf"
+        },
+        {
+                "id": 23,
+                "title": "Helena - Machado de Assis (1876)",
+                "img": "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", 
+                "download": "http://machado.mec.gov.br/images/stories/pdf/romance/marm03.pdf"
+        },
+        {
+                "id": 24,
+                "title": "Iaiá Garcia - Machado de Assis (1878)",
+                "img": "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", 
+                "download": "http://machado.mec.gov.br/images/stories/pdf/romance/marm04.pdf"
+        },
+        {
+                "id": 25,
+                "title": "Memórias Póstumas de Brás Cubas - Machado de Assis (1881)",
+                "img": "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg", 
+                "download": "http://machado.mec.gov.br/images/stories/pdf/romance/marm05.pdf"
+        },
+        {
+                "id": 26,
+                "title": "Casa Velha - Machado de Assis (1885)",
+                "img": "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
+                "download": "http://machado.mec.gov.br/images/stories/pdf/romance/marm06.pdf"
+        },
+        {
+                "id": 27,
+                "title": "Quincas Borba - Machado de Assis (1891)",
+                "img": "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
+                "download": "http://machado.mec.gov.br/images/stories/pdf/romance/marm07.pdf"
+        },
+        {
+                "id": 28,
+                "title": "Dom Casmurro - Machado de Assis (1899)",
+                "img": "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
+                "download": "http://machado.mec.gov.br/images/stories/pdf/romance/marm08.pdf"
+        },
+        {
+                "id": 29,
+                "title": "Esaú e Jacó - Machado de Assis (1904)",
+                "img": "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
+                "download": "http://machado.mec.gov.br/images/stories/pdf/romance/marm09.pdf"
+        },
+        {
+                "id": 30,
+                "title": "Memorial de Aires - Machado de Assis (1908)",
+                "img": "http://imguol.com/c/entretenimento/2014/04/22/machado-de-assis-1398195815361_200x285.jpg",
+                "download": "http://machado.mec.gov.br/images/stories/pdf/romance/marm10.pdf"
+        },
+        {
+                "id": 31,
+                "title": "Historia da Grecia - Fernandes Costa",
+                "img": "https://images-na.ssl-images-amazon.com/images/I/51EIHYzw8nL._SX260_.jpg",
+                "download": "https://www.gutenberg.org/ebooks/32174"
+        },
+        {
+                "id": 32,
+                "title": "Tratado das Cores - Diogo de Carvalho e Sampaio",
+                "img": "https://images-na.ssl-images-amazon.com/images/I/51OSQyhPniL._SY346_.jpg",
+                "download": "https://www.gutenberg.org/ebooks/31190"
+        },
+        {
+                "id": 33,
+                "title": "História Geral da África - Volume I: Metodologia e Pré-História da África",
+                "img": "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
+                "download": "http://unesdoc.unesco.org/images/0019/001902/190249POR.pdf"
+        },
+        {
+                "id": 34,
+                "title": "História Geral da África - Volume II: África Antiga",
+                "img": "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
+                "download": "http://unesdoc.unesco.org/images/0019/001902/190250POR.pdf"
+        },
+        {
+                "id": 35,
+                "title": "História Geral da África - Volume III: África do século VII ao XI",
+                "img": "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
+                "download": "http://unesdoc.unesco.org/images/0019/001902/190251POR.pdf"
+        },
+        {
+                "id": 36,
+                "title": "História Geral da África - Volume IV: África do século XII ao XVI",
+                "img": "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
+                "download": "http://unesdoc.unesco.org/images/0019/001902/190252POR.pdf"
+        },
+        {
+                "id": 37,
+                "title": "História Geral da África - Volume V: África do século XVI ao XVIII",
+                "img": "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
+                "download": "http://unesdoc.unesco.org/images/0019/001902/190253POR.pdf"
+        },
+        {
+                "id": 38,
+                "title": "História Geral da África - Volume VI: África do século XIX à decada de 1880",
+                "img": "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
+                "download": "http://unesdoc.unesco.org/images/0019/001902/190254POR.pdf"
+        },
+        {
+                "id": 39,
+                "title": "História Geral da África - Volume VII: África sob dominação colonial, 1880-1935",
+                "img": "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
+                "download": "http://unesdoc.unesco.org/images/0019/001902/190255POR.pdf"
+        },
+        {
+                "id": 40,
+                "title": "História Geral da África - Volume VIII: África desde 1935",
+                "img": "http://www.unesco.org/new/typo3temp/pics/9057abc7a7.jpg",
+                "download": "http://unesdoc.unesco.org/images/0019/001902/190256POR.pdf"
+        }
+]
