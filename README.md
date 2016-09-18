@@ -5,6 +5,12 @@ Open source site to public domain books.
 
 ![logo](livros/frontend/static/logo.jpg)
 
+## Where do I find the books?
+
+- [Project Guttenberg](https://www.gutenberg.org/wiki/Main_Page)
+- [Domínio Público](http://www.dominiopublico.gov.br/)
+- [UNESCO](http://unesdoc.unesco.org)
+
 ## Usage
 
 ```
