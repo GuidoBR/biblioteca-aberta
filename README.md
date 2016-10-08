@@ -3,7 +3,7 @@
 
 Open source site to public domain books. 
 
-![logo](livros/frontend/static/logo.jpg)
+![logo](livros/frontend/static/logo.png)
 
 ## Where do I find the books?
 
