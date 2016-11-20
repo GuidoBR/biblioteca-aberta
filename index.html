@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Biblioteca Aberta by GuidoBR</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Biblioteca Aberta</h1>
+        <p>Open source site to public domain books. </p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/GuidoBR/livros-livres" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/GuidoBR/livros-livres/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/GuidoBR/livros-livres/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a id="biblioteca-aberta" class="anchor" href="#biblioteca-aberta" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="http://biblioteca-aberta.herokuapp.com/">Biblioteca Aberta</a>
+</h1>
+
+<p>Open source site to public domain books. </p>
+
+<p><img src="livros/frontend/static/logo.png" alt="logo"></p>
+
+<h2>
+<a id="where-do-i-find-the-books" class="anchor" href="#where-do-i-find-the-books" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Where do I find the books?</h2>
+
+<ul>
+<li><a href="https://www.gutenberg.org/wiki/Main_Page">Project Guttenberg</a></li>
+<li><a href="http://www.dominiopublico.gov.br/">Domínio Público</a></li>
+<li><a href="http://unesdoc.unesco.org">UNESCO</a></li>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<pre><code>$ git clone https://github.com/GuidoBR/livros-livres ; cd livros-livres
+$ virtualenv venv
+$ source /venv/bin/activate
+$ pip install -r requirements.txt
+$ gunicorn livros.wsgi --log-file -
+</code></pre>
+
+<h2>
+<a id="deploy-to-heroku" class="anchor" href="#deploy-to-heroku" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deploy to Heroku</h2>
+
+<p>After creating and configuring your Heroku and your project:</p>
+
+<h3>
+<a id="local-server" class="anchor" href="#local-server" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Local server</h3>
+
+<pre><code>$ heroku local web
+</code></pre>
+
+<h3>
+<a id="deploy-integrated-with-github" class="anchor" href="#deploy-integrated-with-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deploy (integrated with Github)</h3>
+
+<pre><code>$ git push
+</code></pre>
+
+<h2>
+<a id="technologies" class="anchor" href="#technologies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technologies</h2>
+
+<ul>
+<li>Python / Django / Django Rest Framework (for the backend API)</li>
+<li>ReactJS (for the frontend)</li>
+</ul>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/GuidoBR">GuidoBR</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Biblioteca Aberta",
+  "tagline": "Open source site to public domain books. ",
+  "body": "[Biblioteca Aberta](http://biblioteca-aberta.herokuapp.com/)\r\n=================\r\n\r\nOpen source site to public domain books. \r\n\r\n![logo](livros/frontend/static/logo.png)\r\n\r\n## Where do I find the books?\r\n\r\n- [Project Guttenberg](https://www.gutenberg.org/wiki/Main_Page)\r\n- [Domínio Público](http://www.dominiopublico.gov.br/)\r\n- [UNESCO](http://unesdoc.unesco.org)\r\n\r\n## Usage\r\n\r\n```\r\n$ git clone https://github.com/GuidoBR/livros-livres ; cd livros-livres\r\n$ virtualenv venv\r\n$ source /venv/bin/activate\r\n$ pip install -r requirements.txt\r\n$ gunicorn livros.wsgi --log-file -\r\n```\r\n\r\n## Deploy to Heroku\r\n\r\nAfter creating and configuring your Heroku and your project:\r\n\r\n### Local server\r\n```\r\n$ heroku local web\r\n```\r\n\r\n### Deploy (integrated with Github)\r\n\r\n```\r\n$ git push\r\n```\r\n\r\n## Technologies\r\n\r\n- Python / Django / Django Rest Framework (for the backend API)\r\n- ReactJS (for the frontend)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
